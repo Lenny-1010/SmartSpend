@@ -89,6 +89,9 @@ export default App = () => {
           // Sign in
           await signInWithEmailAndPassword(auth, email, password);
           console.log('User signed in successfully!');
+          // Direct to home page
+
+
         } else {
           // Sign up
           await createUserWithEmailAndPassword(auth, email, password);
