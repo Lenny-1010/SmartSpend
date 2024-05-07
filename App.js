@@ -1,10 +1,10 @@
 import * as React from 'react';
-import MainContainer from './navigation/MainContainer';
+import LoginSignUp from './navigation/screens/LogIn-SignUp';
 
 function App() {
   return(
     //Change Up
-    <MainContainer/>
+    <LoginSignUp/>
   );
 }
 
